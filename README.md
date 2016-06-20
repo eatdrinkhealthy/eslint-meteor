@@ -19,4 +19,4 @@ Install the eslint, airbnb and meteor specific modules to the project itself (no
 
 Copy the latest `.eslintrc` to your root:
 
-`curl -O https://raw.githubusercontent.com/stevenjmarsh/eslint/.eslintrc`
+`curl -O https://raw.githubusercontent.com/stevenjmarsh/eslint/master/.eslintrc`
