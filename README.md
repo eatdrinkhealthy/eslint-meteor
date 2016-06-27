@@ -15,7 +15,9 @@ We will use the official [AirBnB eslint config](https://github.com/airbnb/javasc
 
 Install the eslint, airbnb and meteor specific modules to the project itself (not global):
 
-`npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint eslint-import-resolver-meteor`
+`meteor npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-meteor eslint-plugin-react eslint-plugin-jsx-a11y eslint
+`
+
 
 Copy the latest `.eslintrc` to your root:
 

@@ -4,7 +4,7 @@
     "react"
   ],
   "extends": [
-    "airbnb/base",
+    "airbnb",
     "plugin:meteor/recommended",
     "plugin:react/recommended"
   ],
