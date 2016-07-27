@@ -3,9 +3,9 @@ Based on AirBnB ESLint, and forked from OKGrow code style guide.
 
 ## Linting
 
-**Every new project should contain a `.eslintrc` file in its root.**
+**Every new project should contain a `.eslintrc.json` file in its root.**
 
-As technologies and coding styles advance with time, each individual project can be updated with a simple refresh of the `.eslintrc` if appropriate.  This will stop old projects lighting up like a christmas tree, and still enforce good coding style.
+As technologies and coding styles advance with time, each individual project can be updated with a simple refresh of `.eslintrc.json` if appropriate.  This will stop old projects lighting up like a christmas tree, and still enforce good coding style.
 
 We will stay as close to the [AirBnB style guide](https://github.com/airbnb/javascript) as possible as it has quickly become an industry standard with ~36k stars on GitHub (more than Meteor!).
 
@@ -19,6 +19,6 @@ Install the eslint, airbnb and meteor specific modules to the project itself (no
 `
 
 
-Copy the latest `.eslintrc` to your root:
+Copy the latest `.eslintrc.json` to your root:
 
 `curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint/master/.eslintrc.json`
