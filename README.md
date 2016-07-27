@@ -22,3 +22,11 @@ Install the eslint, airbnb and meteor specific modules to the project itself (no
 Copy the latest `.eslintrc.json` to your root:
 
 `curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint/master/.eslintrc.json`
+
+## Rule File Versions
+Typically changes in rules are versioned for ease of reference. Versions of eslint rule files can be seen on the [releases](https://github.com/eatdrinkhealthy/eslint/releases) page.
+
+```
+NOTE: to see a brief description of the rule changes for each version,
+click on the ellipsis adjacent to the version number
+```
