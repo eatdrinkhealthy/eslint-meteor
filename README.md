@@ -26,7 +26,7 @@ To ensure all correct versions are installed, run:
 )
 ```
 
-Copy the latest `.eslintrc.json` to your root:
+Copy the latest `.eslintrc.json` to your project root:
 
 `curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json`
 
