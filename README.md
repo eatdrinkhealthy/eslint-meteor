@@ -13,11 +13,18 @@ We will stay as close to the [AirBnB style guide](https://github.com/airbnb/java
 
 We will use the official [AirBnB eslint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
-Install the eslint, airbnb and meteor specific modules to the project itself (not global):
+Install the eslint, airbnb and meteor specific modules to the project itself (not global).
 
-`meteor npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-meteor eslint-plugin-react eslint-plugin-jsx-a11y eslint
-`
+The default eslint-config-airbnb export contains all of the AirBnB ESLint rules, including ECMAScript 6+ and React. It requires `eslint, eslint-plugin-import, eslint-plugin-react, eslint-plugin-jsx-a11y`.
 
+To ensure all correct versions are installed, run:
+```
+(
+  export PKG=eslint-config-airbnb;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs meteor npm install --save-dev "$PKG"
+  meteor npm install --save-dev eslint-plugin-meteor
+)
+```
 
 Copy the latest `.eslintrc.json` to your root:
 
