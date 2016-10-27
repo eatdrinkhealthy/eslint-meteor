@@ -3,6 +3,7 @@
 * research / add [eslint-plugin-meteor](https://github.com/dferber90/eslint-plugin-meteor)
 * research / add [eslint-import-resolver-meteor](https://github.com/clayne11/eslint-import-resolver-meteor)
 * review [meteor style guide discussion](https://forums.meteor.com/t/code-style-article/20189/3)
+* see meteor-react-todos project, some examples of config settings changes or eslint coding corrections 'may' be there
 
 # Code Style
 Based on AirBnB ESLint, and forked from OKGrow code style guide.
