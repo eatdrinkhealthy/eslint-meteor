@@ -37,6 +37,7 @@ Copy the latest `.eslintrc.json` to your project root:
 * [eslint-plugin-import supported rules list](https://github.com/benmosher/eslint-plugin-import#rules)
 * [eslint-plugin-react supported rules list](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules)
 * [eslint-plugin-jsx-a11y supported rules list](https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules)
+
 ## Rule File Versions
 Typically changes in rules are versioned for ease of reference. Versions of eslint rule files can be seen on the [releases](https://github.com/eatdrinkhealthy/eslint-meteor/releases) page.
 
