@@ -30,7 +30,7 @@ Copy the latest `.eslintrc.json` to your project root:
 
 `curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json`
 
-## Rules & Style Guides References
+## Rules & Style Guide References
 * [ESLint.org Rules (all)](http://eslint.org/docs/rules/)
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
 * [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react#airbnb-reactjsx-style-guide)
