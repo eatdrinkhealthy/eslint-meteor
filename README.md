@@ -30,6 +30,13 @@ Copy the latest `.eslintrc.json` to your project root:
 
 `curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json`
 
+## Rules & Style Guide References
+* [ESLint.org Rules (all)](http://eslint.org/docs/rules/)
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
+* [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react#airbnb-reactjsx-style-guide)
+* [eslint-plugin-import supported rules list](https://github.com/benmosher/eslint-plugin-import#rules)
+* [eslint-plugin-react supported rules list](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules)
+* [eslint-plugin-jsx-a11y supported rules list](https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules)
 ## Rule File Versions
 Typically changes in rules are versioned for ease of reference. Versions of eslint rule files can be seen on the [releases](https://github.com/eatdrinkhealthy/eslint-meteor/releases) page.
 
