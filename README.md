@@ -5,6 +5,9 @@
 * review [meteor style guide discussion](https://forums.meteor.com/t/code-style-article/20189/3)
 * see meteor-react-todos project, some examples of config settings changes or eslint coding corrections 'may' be there
 
+### Rules corrections to resolve 
+* turn off import/no-extraneous-dependencies (import or import-resolver-meteor)
+
 # Code Style
 Based on AirBnB ESLint, and forked from OKGrow code style guide.
 
