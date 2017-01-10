@@ -38,6 +38,7 @@ The default [eslint-config-airbnb export](https://github.com/airbnb/javascript/t
 * [eslint-plugin-react supported rules list](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules)
 * [eslint-plugin-jsx-a11y supported rules list](https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules)
 * [eslint-plugin-meteor supported rules list](https://www.npmjs.com/package/eslint-plugin-meteor)
+
 ## Eslint Configuration File Versions
 Typically changes in rules are versioned for ease of reference. Versions of eslint rule files can be seen on the [releases](https://github.com/eatdrinkhealthy/eslint-meteor/releases) page.
 
@@ -45,3 +46,7 @@ Typically changes in rules are versioned for ease of reference. Versions of esli
 NOTE: to see a brief description of the rule changes for each version,
 click on the ellipsis adjacent to the version number
 ```
+### Compatability Issues
+* [v1.2.0](https://github.com/eatdrinkhealthy/eslint-meteor/releases) introduces a settings section for meteor core module imports
+    - by default, the common meteor core modules `meteor, accounts-base, mongo` are included in this section
+    - add or remove meteor core modules in this section as needed 
