@@ -20,17 +20,15 @@ The default [eslint-config-airbnb export](https://github.com/airbnb/javascript/t
 ### Installation
 
 1. To install the correct version of each package, run:
-  ```
-  (
-    export PKG=eslint-config-airbnb;
-    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs meteor npm install --save-dev "$PKG"
-    meteor npm install --save-dev eslint-plugin-meteor
-  )
-  ```
+```
+(
+  export PKG=eslint-config-airbnb;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs meteor npm install --save-dev "$PKG"
+  meteor npm install --save-dev eslint-plugin-meteor
+)
+```
 2. Copy the latest `.eslintrc.json` to your project root:
-  ```
-  curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json
-  ```
+```curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json```
 
 ## Rules & Style Guide References
 * [ESLint.org Rules (all)](http://eslint.org/docs/rules/)
