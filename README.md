@@ -18,6 +18,7 @@ The eslint, airbnb and meteor specific modules should be locally installed in th
 The default [eslint-config-airbnb export](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) contains all of the AirBnB ESLint rules, including ECMAScript 6+ and React. It requires `eslint, eslint-plugin-import, eslint-plugin-react, eslint-plugin-jsx-a11y`.
 
 ### Installation
+
 1. To install the correct version of each package, run:
 ```
 (
