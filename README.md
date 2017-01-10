@@ -26,7 +26,6 @@ The default [eslint-config-airbnb export](https://github.com/airbnb/javascript/t
   meteor npm install --save-dev eslint-plugin-meteor
 )
 ```
-
 2. Copy the latest `.eslintrc.json` to your project root:
 ```
 curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json
