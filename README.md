@@ -49,6 +49,6 @@ NOTE: to see a brief description of the rule changes for each version,
 click on the ellipsis adjacent to the version number
 ```
 ### Compatability Issues
-* [v1.2.0](https://github.com/eatdrinkhealthy/eslint-meteor/releases) introduces a settings section for meteor core module imports
+* [v1.2.0](https://github.com/eatdrinkhealthy/eslint-meteor/releases) introduces a settings section for meteor core module imports to address eslint errors when using some eslint plugin package versions
     - by default, the common meteor core modules `meteor, accounts-base, mongo` are included in this section
     - add or remove meteor core modules in this section as needed 
