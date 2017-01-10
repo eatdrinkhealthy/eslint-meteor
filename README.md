@@ -1,5 +1,5 @@
 # Code Style
-Based on AirBnB ESLint, and forked from OKGrow code style guide.
+Based on AirBnB ESLint, and forked from [OKGrow javascript style guide](https://github.com/okgrow/guides/tree/master/style-guide/code-style/javascript).
 
 ## Linting
 
@@ -10,14 +10,15 @@ As technologies and coding styles advance with time, each individual project can
 We will stay as close to the [AirBnB style guide](https://github.com/airbnb/javascript) as possible as it has quickly become an industry standard with ~36k stars on GitHub (more than Meteor!).
 
 ## Installation & Setup
-
+### Notes
 We will use the official [AirBnB eslint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
-Install the eslint, airbnb and meteor specific modules to the project itself (not global).
+The eslint, airbnb and meteor specific modules should be locally installed in the project (not global).
 
-The default eslint-config-airbnb export contains all of the AirBnB ESLint rules, including ECMAScript 6+ and React. It requires `eslint, eslint-plugin-import, eslint-plugin-react, eslint-plugin-jsx-a11y`.
+The default [eslint-config-airbnb export](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) contains all of the AirBnB ESLint rules, including ECMAScript 6+ and React. It requires `eslint, eslint-plugin-import, eslint-plugin-react, eslint-plugin-jsx-a11y`.
 
-To ensure all correct versions are installed, run:
+### Installation
+1. To install the correct version of each package, run:
 ```
 (
   export PKG=eslint-config-airbnb;
@@ -26,8 +27,7 @@ To ensure all correct versions are installed, run:
 )
 ```
 
-Copy the latest `.eslintrc.json` to your project root:
-
+2. Copy the latest `.eslintrc.json` to your project root:
 `curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.eslintrc.json`
 
 ## Rules & Style Guide References
@@ -37,11 +37,16 @@ Copy the latest `.eslintrc.json` to your project root:
 * [eslint-plugin-import supported rules list](https://github.com/benmosher/eslint-plugin-import#rules)
 * [eslint-plugin-react supported rules list](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules)
 * [eslint-plugin-jsx-a11y supported rules list](https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules)
+* [eslint-plugin-meteor supported rules list](https://www.npmjs.com/package/eslint-plugin-meteor)
 
-## Rule File Versions
+## Eslint Configuration File Versions
 Typically changes in rules are versioned for ease of reference. Versions of eslint rule files can be seen on the [releases](https://github.com/eatdrinkhealthy/eslint-meteor/releases) page.
 
 ```
 NOTE: to see a brief description of the rule changes for each version,
 click on the ellipsis adjacent to the version number
 ```
+### Compatability Issues
+* [v1.2.0](https://github.com/eatdrinkhealthy/eslint-meteor/releases) introduces a settings section for meteor core module imports
+    - by default, the common meteor core modules `meteor, accounts-base, mongo` are included in this section
+    - add or remove meteor core modules in this section as needed 
