@@ -53,6 +53,11 @@ curl -O https://raw.githubusercontent.com/eatdrinkhealthy/eslint-meteor/master/.
 * [eslint-plugin-jsx-a11y supported rules list](https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules)
 * [eslint-plugin-meteor supported rules list](https://www.npmjs.com/package/eslint-plugin-meteor)
 
+### ESLint for Flow
+If you wish to add eslint checking for flow based rules, an eslint plugin for flow can be added. The eslint-plugin-flowtype package, and instructions for installation can be found [here](https://github.com/gajus/eslint-plugin-flowtype). Note, this package requires using babel-eslint parser. 
+   
+A default set of flow project rules can be found in this repo's `flow.eslintrc.json` file. Those rules and settings should be merged in to the project's `.eslintrc.json` file.
+
 ## Eslint Configuration File Versions
 Typically changes in rules are versioned for ease of reference. Versions of eslint rule files can be seen on the [releases](https://github.com/eatdrinkhealthy/eslint-meteor/releases) page.
 
