@@ -66,6 +66,14 @@ NOTE: to see a brief description of the rule changes for each version,
 click on the ellipsis adjacent to the version number
 ```
 ### Compatability Issues
+* [v1.3.0](https://github.com/eatdrinkhealthy/eslint-meteor/releases) 
+    - __NOTE:__ eslint-plugin-import 'seems' to have a defect in v2.8.0, where the import/core-module settings does not work (modules listed there are not recognized)
+        + check your yarn.lock or npm lock file, to determine which package version was installed
+        + explicitly install v2.7.0, or a later version when a fix is known to have been added
+    - new rule configurations were added to suppress errors which arose from the eslint-plugin-import v2.7.0
+        + import/extensions
+        + import/no-extraneous-depedencies
+            * NOTE: this rule was added to address a likely defect with this version. the default values listed in the documentation do not seem to be correct, unless explicitly adding any setting for this rule (once any single value is added to this rule, all defaults them seem to function as described)
 * [v1.2.0](https://github.com/eatdrinkhealthy/eslint-meteor/releases) introduces a settings section for meteor core module imports to address eslint errors when using some eslint plugin package versions
     - by default, the common meteor core modules `meteor, accounts-base, mongo` are included in this section
     - add or remove meteor core modules in this section as needed 
