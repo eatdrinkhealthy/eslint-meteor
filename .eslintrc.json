@@ -32,11 +32,64 @@
   "rules": {
     "semi": "error",
     "no-console": "warn",
-    "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
-    "no-underscore-dangle": ["error", { "allow": ["_id"]}],
+    "no-multi-spaces": [
+      "warn",
+      {
+        "ignoreEOLComments": true
+      }
+    ],
+    "quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id",
+          "_execute",
+          "_sleepForMs"
+        ]
+      }
+    ],
     "react/no-danger": "warn",
-    "react/react-in-jsx-scope": "off",
-    "meteor/eventmap-params": ["error", { "templateInstanceParamName": "instance" }],
-    "import/no-unresolved": ["error", { "ignore": ["^meteor/"] }]
+    "react/require-default-props": "warn",
+    "react/sort-comp": [
+      "warn",
+      {
+        "order": [
+          "props",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ],
+        "groups": {
+          "props": [
+            "props",
+            "defaultProps"
+          ]
+        }
+      }
+    ],
+    "meteor/eventmap-params": [
+      "error",
+      {
+        "templateInstanceParamName": "instance"
+      }
+    ],
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "^meteor/"
+        ]
+      }
+    ],
+    "jsx-a11y/no-static-element-interactions": "warn"
   }
 }
