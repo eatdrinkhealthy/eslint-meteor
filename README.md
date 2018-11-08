@@ -1,6 +1,9 @@
 # Code Style
 Based on AirBnB ESLint, and forked from [OKGrow javascript style guide](https://github.com/okgrow/guides/tree/master/style-guide/code-style/javascript).
 
+**NOTE:** for simpler (more current) steps to install and configure eslint, please refer to this [blog post by Jeffrey Zhen](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a). This repo is still helpful in adding meteor and flow eslint configs, as well as providing links to eslint config resources.
+
+
 ## Linting
 
 **Every new project should contain a `.eslintrc.json` file in its root.**
